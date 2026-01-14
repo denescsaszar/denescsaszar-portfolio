@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Verge-inspired typography */
+  html {
+    @apply antialiased;
+    font-feature-settings: "kern" 1, "liga" 1;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    @apply font-sans;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-foreground text-background;
+  }
+
+  /* Headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-semibold;
+  }
+}
+
+@layer components {
+  /* Container utility */
+  .container-custom {
+    @apply max-w-wide mx-auto px-6 md:px-12 lg:px-24;
+  }
+
+  /* Content container with optimal reading width */
+  .content-container {
+    @apply max-w-content mx-auto;
+  }
+}
