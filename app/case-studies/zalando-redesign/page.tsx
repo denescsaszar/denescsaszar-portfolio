@@ -6,9 +6,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Zalando: 20% Revenue Growth Through Redesign | Denes Csaszar",
   description:
-    "Product Owner case study: Leading user-centered gift card redesign based on research with 1000+ customers, achieving 20% revenue growth across 15 European markets and 50,000+ points of sale.",
+    "Project Manager case study: Leading user-centered gift card redesign based on research with 1000+ customers, achieving 20% revenue growth across 15 European markets and 50,000+ points of sale.",
   keywords: [
-    "Product Owner",
+    "Project Manager",
     "Product Manager",
     "Zalando",
     "User Research",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Zalando: 20% Revenue Growth Through User-Centered Redesign",
     description:
-      "Product Owner case study: User research at scale delivering measurable growth",
+      "Project Manager case study: User research at scale delivering measurable growth",
     type: "article",
     url: "https://denescsaszar-portfolio.vercel.app/case-studies/zalando-redesign",
   },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Zalando: 20% Revenue Growth Through User-Centered Redesign",
     description:
-      "Product Owner case study: User research at scale delivering measurable growth",
+      "Project Manager case study: User research at scale delivering measurable growth",
   },
 };
 

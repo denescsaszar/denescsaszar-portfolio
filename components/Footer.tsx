@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-heading-3 mb-4">Denes Csaszar</h3>
             <p className="text-body-small text-muted max-w-xs mb-4">
-              Product Owner bridging technical execution and business strategy.
+              Project Manager bridging technical execution and business strategy.
             </p>
             <p className="text-body-small text-muted">
               Berlin, Germany • Open to remote (EU)

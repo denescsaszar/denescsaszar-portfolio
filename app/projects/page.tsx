@@ -8,7 +8,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "All Projects | Denes Csaszar",
   description: "Complete portfolio of product management and product owner projects.",
-  keywords: ["Product Owner", "Product Manager", "Portfolio", "Projects"],
+  keywords: ["Project Manager", "Product Manager", "Portfolio", "Projects"],
 }
 
 export default function ProjectsPage() {

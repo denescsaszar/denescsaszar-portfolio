@@ -6,9 +6,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Deutsche Bank Digital Platform Partnership | Denes Csaszar",
   description:
-    "Product Owner case study: Leading B2B partnership and API integration between Deutsche Bank and Zalando for digital gift card platform.",
+    "Project Manager case study: Leading B2B partnership and API integration between Deutsche Bank and Zalando for digital gift card platform.",
   keywords: [
-    "Product Owner",
+    "Project Manager",
     "Product Manager",
     "Deutsche Bank",
     "B2B Partnership",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Deutsche Bank: Digital Gift Card Platform Partnership",
     description:
-      "Product Owner case study: B2B partnership and API integration",
+      "Project Manager case study: B2B partnership and API integration",
     type: "article",
     url: "https://denescsaszar-portfolio.vercel.app/case-studies/deutsche-bank",
   },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Deutsche Bank: Digital Gift Card Platform Partnership",
     description:
-      "Product Owner case study: B2B partnership and API integration",
+      "Project Manager case study: B2B partnership and API integration",
   },
 };
 

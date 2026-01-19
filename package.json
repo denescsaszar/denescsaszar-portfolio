@@ -2,7 +2,7 @@
   "name": "denescsaszar-portfolio",
   "version": "0.1.0",
   "private": true,
-  "description": "Product Owner Portfolio - Denes Csaszar",
+  "description": "Project Manager Portfolio - Denes Csaszar",
   "author": "Denes Csaszar",
   "scripts": {
     "dev": "next dev",

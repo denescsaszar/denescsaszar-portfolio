@@ -7,9 +7,9 @@ export const metadata: Metadata = {
   title:
     "Google x Aldi: World's First Receipt-Printed Gift Card | Denes Csaszar",
   description:
-    "Product Owner case study: Leading the development of the world's first receipt-printed digital gift card format, revolutionizing retail distribution across 4 countries in partnership with Google.",
+    "Project Manager case study: Leading the development of the world's first receipt-printed digital gift card format, revolutionizing retail distribution across 4 countries in partnership with Google.",
   keywords: [
-    "Product Owner",
+    "Project Manager",
     "Product Manager",
     "Google",
     "Aldi",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Google x Aldi: World's First Receipt-Printed Gift Card",
     description:
-      "Product Owner case study: Leading innovation with Google across 4 countries",
+      "Project Manager case study: Leading innovation with Google across 4 countries",
     type: "article",
     url: "https://denescsaszar-portfolio.vercel.app/case-studies/google-aldi",
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Google x Aldi: World's First Receipt-Printed Gift Card",
     description:
-      "Product Owner case study: Leading innovation with Google across 4 countries",
+      "Project Manager case study: Leading innovation with Google across 4 countries",
   },
 };
 
@@ -80,7 +80,7 @@ export default function GoogleAldiCaseStudy() {
                 <p className="text-body-small text-muted uppercase mb-2">
                   Role
                 </p>
-                <p className="text-heading-3">Product Owner</p>
+                <p className="text-heading-3">Project Manager</p>
               </div>
             </div>
           </div>

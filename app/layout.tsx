@@ -11,13 +11,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://denescsaszar-portfolio.vercel.app"),
   title: {
-    default: "Denes Csaszar | Product Owner",
+    default: "Denes Csaszar | Project Manager",
     template: "%s | Denes Csaszar",
   },
   description:
-    "Product Owner with 7+ years experience bridging technical execution and business strategy. Specialized in digital products, e-commerce, and API integrations. Partnered with Google, Apple, Amazon, and Deutsche Bank.",
+    "Project Manager with 7+ years experience bridging technical execution and business strategy. Specialized in digital products, e-commerce, and API integrations. Partnered with Google, Apple, Amazon, and Deutsche Bank.",
   keywords: [
-    "Product Owner",
+    "Project Manager",
     "Product Manager",
     "PSPO",
     "Scrum",
@@ -37,16 +37,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://denescsaszar-portfolio.vercel.app",
-    title: "Denes Csaszar | Product Owner",
+    title: "Denes Csaszar | Project Manager",
     description:
-      "Product Owner bridging technical execution and business strategy. 7+ years experience with Google, Apple, Amazon, Deutsche Bank.",
+      "Project Manager bridging technical execution and business strategy. 7+ years experience with Google, Apple, Amazon, Deutsche Bank.",
     siteName: "Denes Csaszar Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Denes Csaszar | Product Owner",
+    title: "Denes Csaszar | Project Manager",
     description:
-      "Product Owner bridging technical execution and business strategy",
+      "Project Manager bridging technical execution and business strategy",
     creator: "@denescsaszar", // Add your Twitter handle if you have one, or remove this line
   },
   robots: {
