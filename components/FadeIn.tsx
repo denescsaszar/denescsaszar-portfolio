@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, ReactNode } from "react";
 
-type FadeInProps = {
-  children: React.ReactNode;
+interface FadeInProps {
+  children: ReactNode;
   delay?: number;
   className?: string;
-};
+}
 
 export default function FadeIn({ children, delay = 0, className = "" }: FadeInProps) {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,8 +39,8 @@ export default function FadeIn({ children, delay = 0, className = "" }: FadeInPr
       className={className}
       style={{
         opacity: isVisible ? 1 : 0,
-        transform: isVisible ? "translateY(0)" : "translateY(20px)",
-        transition: `opacity 0.6s ease-out ${delay}s, transform 0.6s ease-out ${delay}s`,
+        transform: isVisible ? "translateY(0)" : "translateY(20px)",  // ← Original: 20px (very subtle)
+        transition: `opacity 0.6s ease-out ${delay}s, transform 0.6s ease-out ${delay}s`,  // ← Original: 0.6s (quick)
       }}
     >
       {children}
