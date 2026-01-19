@@ -176,14 +176,72 @@ export default function Home() {
         </section>
 
         {/* Contact Section - Placeholder */}
-        <section
-          id="contact"
-          className="container-custom py-section border-t border-border"
+{/* Contact Section */}
+<section id="contact" className="container-custom py-section border-t border-border">
+  <div className="max-w-4xl">
+    <h2 className="text-heading-1 mb-8">Let's Build Something Together</h2>
+    
+    <p className="text-heading-3 text-muted mb-16 max-w-3xl">
+      I'm currently interested in Product Owner roles where I can leverage my 
+      technical depth and international product experience. If you're building 
+      digital products that need someone who can bridge engineering and business, 
+      let's talk.
+    </p>
+    
+    {/* Primary CTA */}
+    <div className="mb-16">
+      
+        href="https://www.linkedin.com/in/denescsaszar"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block px-12 py-5 bg-foreground text-background text-body-large font-semibold hover:bg-muted transition-colors"
+      >
+        Connect on LinkedIn
+      </a>
+    </div>
+    
+    {/* Contact Details */}
+    <div className="grid md:grid-cols-3 gap-8 pt-12 border-t border-border">
+      <div>
+        <p className="text-body-small text-muted uppercase tracking-wider mb-3">
+          Email
+        </p>
+        
+          href="mailto:csaszar.denes@gmail.com"
+          className="text-body-large hover:text-muted transition-colors"
         >
-          <h2 className="text-heading-1 mb-12">Let's Connect</h2>
-          <p className="text-muted">Coming soon...</p>
-        </section>
-      </main>
+          csaszar.denes@gmail.com
+        </a>
+      </div>
+      
+      <div>
+        <p className="text-body-small text-muted uppercase tracking-wider mb-3">
+          GitHub
+        </p>
+        
+          href="https://github.com/denescsaszar"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-body-large hover:text-muted transition-colors"
+        >
+          @denescsaszar
+        </a>
+      </div>
+      
+      <div>
+        <p className="text-body-small text-muted uppercase tracking-wider mb-3">
+          Location
+        </p>
+        <p className="text-body-large">
+          Berlin, Germany
+        </p>
+        <p className="text-body text-muted mt-1">
+          Open to remote (EU)
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       <Footer />
     </>
