@@ -72,7 +72,7 @@ export default function Home() {
               description="Led the development of the world's first receipt-printed digital gift card format, revolutionizing retail gift card distribution across 4 countries."
               achievement="World-First Innovation"
               tags={["Product Strategy", "API Integration", "Agile", "Retail"]}
-              href="#google-aldi"
+              href="/case-studies/google-aldi"
             />
 
             <ProjectCard
