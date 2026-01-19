@@ -1,5 +1,36 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import FadeIn from "@/components/FadeIn";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Deutsche Bank Digital Platform Partnership | Denes Csaszar",
+  description:
+    "Product Owner case study: Leading B2B partnership and API integration between Deutsche Bank and Zalando for digital gift card platform.",
+  keywords: [
+    "Product Owner",
+    "Product Manager",
+    "Deutsche Bank",
+    "B2B Partnership",
+    "API Integration",
+    "Digital Banking",
+    "Case Study",
+  ],
+  authors: [{ name: "Denes Csaszar" }],
+  openGraph: {
+    title: "Deutsche Bank: Digital Gift Card Platform Partnership",
+    description:
+      "Product Owner case study: B2B partnership and API integration",
+    type: "article",
+    url: "https://denescsaszar-portfolio.vercel.app/case-studies/deutsche-bank",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Deutsche Bank: Digital Gift Card Platform Partnership",
+    description:
+      "Product Owner case study: B2B partnership and API integration",
+  },
+};
 
 export default function DeutscheBankCaseStudy() {
   return (

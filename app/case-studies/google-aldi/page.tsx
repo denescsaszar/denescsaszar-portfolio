@@ -1,5 +1,38 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import FadeIn from "@/components/FadeIn";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Google x Aldi: World's First Receipt-Printed Gift Card | Denes Csaszar",
+  description:
+    "Product Owner case study: Leading the development of the world's first receipt-printed digital gift card format, revolutionizing retail distribution across 4 countries in partnership with Google.",
+  keywords: [
+    "Product Owner",
+    "Product Manager",
+    "Google",
+    "Aldi",
+    "API Integration",
+    "Digital Products",
+    "Innovation",
+    "Case Study",
+  ],
+  authors: [{ name: "Denes Csaszar" }],
+  openGraph: {
+    title: "Google x Aldi: World's First Receipt-Printed Gift Card",
+    description:
+      "Product Owner case study: Leading innovation with Google across 4 countries",
+    type: "article",
+    url: "https://denescsaszar-portfolio.vercel.app/case-studies/google-aldi",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Google x Aldi: World's First Receipt-Printed Gift Card",
+    description:
+      "Product Owner case study: Leading innovation with Google across 4 countries",
+  },
+};
 
 export default function GoogleAldiCaseStudy() {
   return (
