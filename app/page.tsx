@@ -88,7 +88,7 @@ export default function Home() {
               description="Led gift card redesign based on user research with 1000+ customers, resulting in significant revenue growth across 15 European markets."
               achievement="20% Revenue Growth"
               tags={["User Research", "Product Design", "Growth"]}
-              href="#zalando"
+              href="/case-studies/zalando-redesign"
             />
           </div>
         </section>
