@@ -80,7 +80,7 @@ export default function Home() {
               description="Partnered with Deutsche Bank to launch digital gift cards on their platform, coordinating technical integration and product development."
               achievement="B2B Partnership"
               tags={["B2B", "API Design", "Stakeholder Management"]}
-              href="#deutsche-bank"
+              href="/case-studies/deutsche-bank"
             />
 
             <ProjectCard
