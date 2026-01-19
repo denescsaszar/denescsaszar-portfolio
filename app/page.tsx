@@ -14,7 +14,7 @@ export default function Home() {
               Project Manager
             </p>
             <h1 className="text-display md:text-display-large mb-8">
-              7+ Years Leading Digital Products
+              7+ Years Managing Digital Products
             </h1>{" "}
             <p className="text-heading-3 md:text-heading-2 text-muted mb-12 max-w-3xl">
               Bridging technical execution and business strategy
