@@ -94,12 +94,85 @@ export default function Home() {
         </section>
 
         {/* About Section - Placeholder */}
+        {/* About Section */}
         <section
           id="about"
           className="container-custom py-section border-t border-border"
         >
-          <h2 className="text-heading-1 mb-12">About</h2>
-          <p className="text-muted">Coming soon...</p>
+          <div className="max-w-4xl">
+            <h2 className="text-heading-1 mb-16">About Me</h2>
+
+            <div className="space-y-8 max-w-3xl">
+              {/* Opening */}
+              <p className="text-body-large text-foreground">
+                I'm a Product Owner who bridges technical execution and business
+                strategy. With 7+ years leading digital products across Europe,
+                I've learned that the best product leaders speak two languages:
+                technology and business.
+              </p>
+
+              {/* Journey */}
+              <p className="text-body-large text-muted">
+                My career started in product management at companies like
+                Zalando and InComm, where I led products across 15 European
+                markets and partnered with giants like Google, Apple, and
+                Amazon. I managed seven-figure budgets, coordinated
+                international teams, and shipped products that generated
+                measurable growth.
+              </p>
+
+              <p className="text-body-large text-muted">
+                But I noticed a gap: the most impactful product conversations
+                happened when I could dive deep into technical details with
+                engineering teams. So I invested in building that
+                depth—completing a full-stack development bootcamp and earning
+                PSM I & PSPO I certifications.
+              </p>
+
+              <p className="text-body-large text-muted">
+                Now I bring both worlds together: I can read API documentation,
+                review technical architecture, and discuss implementation
+                details—while keeping the focus on user needs and business
+                impact.
+              </p>
+
+              {/* What Makes You Unique */}
+              <div className="pt-8 border-t border-border">
+                <p className="text-heading-3 mb-6">
+                  I'm the Product Owner who can sit with engineers to debug an
+                  API integration in the morning, then present business strategy
+                  to executives in the afternoon.
+                </p>
+                <p className="text-body text-muted">
+                  This technical literacy, combined with proven product
+                  leadership, lets me ship better products faster.
+                </p>
+              </div>
+
+              {/* Strengths */}
+              <div className="pt-8">
+                <p className="text-body-small text-muted uppercase tracking-wider mb-4">
+                  StrengthsFinder 2.0
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  {[
+                    "Strategic",
+                    "Activator",
+                    "Ideation",
+                    "Input",
+                    "Connectedness",
+                  ].map((strength) => (
+                    <span
+                      key={strength}
+                      className="text-body px-4 py-2 border border-border"
+                    >
+                      {strength}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         {/* Contact Section - Placeholder */}
