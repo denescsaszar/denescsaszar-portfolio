@@ -9,9 +9,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Denes Csaszar | Product Owner",
+  metadataBase: new URL("https://denescsaszar-portfolio.vercel.app"),
+  title: {
+    default: "Denes Csaszar | Product Owner",
+    template: "%s | Denes Csaszar",
+  },
   description:
-    "Product Owner with 7+ years experience bridging technical execution and business strategy. Specialized in digital products, e-commerce, and API integrations.",
+    "Product Owner with 7+ years experience bridging technical execution and business strategy. Specialized in digital products, e-commerce, and API integrations. Partnered with Google, Apple, Amazon, and Deutsche Bank.",
   keywords: [
     "Product Owner",
     "Product Manager",
@@ -19,13 +23,46 @@ export const metadata: Metadata = {
     "Scrum",
     "Digital Products",
     "E-commerce",
+    "API Integration",
+    "Agile",
+    "Berlin",
+    "Denes Csaszar",
   ],
-  authors: [{ name: "Denes Csaszar" }],
+  authors: [
+    { name: "Denes Csaszar", url: "https://denescsaszar-portfolio.vercel.app" },
+  ],
+  creator: "Denes Csaszar",
+  publisher: "Denes Csaszar",
   openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://denescsaszar-portfolio.vercel.app",
+    title: "Denes Csaszar | Product Owner",
+    description:
+      "Product Owner bridging technical execution and business strategy. 7+ years experience with Google, Apple, Amazon, Deutsche Bank.",
+    siteName: "Denes Csaszar Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
     title: "Denes Csaszar | Product Owner",
     description:
       "Product Owner bridging technical execution and business strategy",
-    type: "website",
+    creator: "@denescsaszar", // Add your Twitter handle if you have one, or remove this line
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    // Add Google Search Console verification later
+    // google: 'your-verification-code',
   },
 };
 
