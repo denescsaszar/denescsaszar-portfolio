@@ -19,34 +19,22 @@ export default function Footer() {
             <h4 className="text-body font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                
-                  href="/#projects"
-                  className="text-body-small text-muted hover:text-foreground transition-colors"
-                >
+                <a href="/#projects" className="text-body-small text-muted hover:text-foreground transition-colors">
                   Projects
                 </a>
               </li>
               <li>
-                
-                  href="/#about"
-                  className="text-body-small text-muted hover:text-foreground transition-colors"
-                >
+                <a href="/#about" className="text-body-small text-muted hover:text-foreground transition-colors">
                   About
                 </a>
               </li>
               <li>
-                
-                  href="/#contact"
-                  className="text-body-small text-muted hover:text-foreground transition-colors"
-                >
+                <a href="/#contact" className="text-body-small text-muted hover:text-foreground transition-colors">
                   Contact
                 </a>
               </li>
               <li>
-                
-                  href="/case-studies/google-aldi"
-                  className="text-body-small text-muted hover:text-foreground transition-colors"
-                >
+                <a href="/case-studies/google-aldi" className="text-body-small text-muted hover:text-foreground transition-colors">
                   Google x Aldi Case Study
                 </a>
               </li>
@@ -57,30 +45,17 @@ export default function Footer() {
             <h4 className="text-body font-semibold mb-4">Connect</h4>
             <ul className="space-y-2">
               <li>
-                
-                  href="https://www.linkedin.com/in/denescsaszar"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-body-small text-muted hover:text-foreground transition-colors"
-                >
+                <a href="https://www.linkedin.com/in/denescsaszar" target="_blank" rel="noopener noreferrer" className="text-body-small text-muted hover:text-foreground transition-colors">
                   LinkedIn
                 </a>
               </li>
               <li>
-                
-                  href="https://github.com/denescsaszar"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-body-small text-muted hover:text-foreground transition-colors"
-                >
+                <a href="https://github.com/denescsaszar" target="_blank" rel="noopener noreferrer" className="text-body-small text-muted hover:text-foreground transition-colors">
                   GitHub
                 </a>
               </li>
               <li>
-                
-                  href="mailto:csaszar.denes@gmail.com"
-                  className="text-body-small text-muted hover:text-foreground transition-colors"
-                >
+                <a href="mailto:csaszar.denes@gmail.com" className="text-body-small text-muted hover:text-foreground transition-colors">
                   csaszar.denes@gmail.com
                 </a>
               </li>
